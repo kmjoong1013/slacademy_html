@@ -18,6 +18,14 @@
       "request": "launch",
       "port": 9285,
       "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (1)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9256,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:51728/p/html5_test/WebContent/semantic_exam01.html?_cmAuth\u003drtmugqhknh"
     }
   ]
 }
