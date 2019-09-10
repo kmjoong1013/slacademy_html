@@ -1,0 +1,41 @@
+<html>
+ <head>
+   <meta charset="UTF-8">
+  <title> New Document </title>
+  <style type="text/css">
+  .st{position:static;border-style:double;width:200px;top:10px;margin-left:auto;	}
+  .rel{position:relative;top:100px;left:20px; border-style:double;width:200px}
+  .abs{position:absolute; top:10px; left:10px; border-style:double;width:200px}
+
+  .itemList, .itemListEnd{width:100px; height:50px; margin-right:10px; border:1px solid pink;}    
+  .itemList{float:left; }
+  .itemListEnd{ margin-top:20px;clear:left; }
+  </style>
+ </head>
+
+ <body>
+  div test
+  <div class="abs" style="display:none">여기가 div 영역입니다.
+    x[닫기]
+  </div>
+  ....1<br/>
+  ....2<br/>
+  ....3<br/>
+  ....4<br/>
+  ....5<br/>
+  ....<br/>
+  ....<br/>
+  ....<br/>
+  ....<br/>
+  ....<br/>
+ 
+<div class="itemList">상품1</div>
+<div class="itemList">상품2</div>
+<div class="itemList">상품3</div>
+<div class="itemList">상품4</div>
+<div class="itemList">상품5</div>
+<div class="itemList" style="margin-bottom:10px;">상품6</div>
+<div class="itemListEnd">새로운 상품</div>
+
+ </body>
+</html>
