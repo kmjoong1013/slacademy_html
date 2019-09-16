@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>selector attribute</title>
+<style>
+input[type="text"] {        /* type="tel"인 input 요소 */
+	width:150px;              /* 너비 150px */
+	background-color:skyblue; /* 배경색 하늘색 */
+	border:1px solid black;    /* 1px짜리 검은색 실선 */
+}
+</style>
+</head>
+
+<body>
+  <section id="container">
+  <h1>회원정보</h1>
+  <form name="form1" id="form1" method="post">
+        	<fieldset>
+			    <legend>기본정보</legend>
+            	<ul>
+                	<li>
+                    	<label for="name">이름</label>
+                        <input type="text" id="name">
+                    </li>
+                    <li>
+                    	<label for="contact">전화</label>
+                        <input type="tel" id="contact">
+                   </li>
+                    <li>
+                    	<label for="people">구매수량</label>
+                        <input type="number" id="people">
+                   </li>
+                    <li>
+                    	<label for="bank">입금 은행</label>
+                        <input type="text" id="bank">
+                   </li>
+                </ul>
+			</fieldset>
+      </form>
+</section>
+</body>
+</html>

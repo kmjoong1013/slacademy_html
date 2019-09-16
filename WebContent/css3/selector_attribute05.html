@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+/* title이 2010이 포함된 li에 li_Icon.GIF를 앞에 표시하시오 */
+
+li[title *= "2010"] {background: url(C:\html_work\html5_test\WebContent\img\li_Icon.GIF) 
+center left no-repeat;padding-left: 20px;}
+a[hreflang |= "en"] {color: red;}
+
+
+</style>
+</head>
+<body>
+  <section id="container">
+  <header><h1>CSS 참고 사이트</h1></header>
+   <ul>
+     <li title="last update:2011-11"><a href="#" hreflang="en">사이트1</a></li>
+     <li title="last update:2010-01"><a href="#" hreflang="en">사이트2</a></li>
+     <li title="last update:2010-08"><a href="#" hreflang="ko">사이트3</a></li>
+     <li title="last update:2011-01"><a href="#" hreflang="fr">사이트4</a></li>
+  </ul>
+</section>
+</body>
+</html>

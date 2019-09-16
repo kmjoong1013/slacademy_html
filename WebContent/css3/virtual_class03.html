@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	h2::before{content: "□";}
+	h2::after{content:"■";}
+	li {font-weight: bold;}
+	li:not(.item01){font-weight: lighter;color: red;}
+</style>
+</head>
+<body>
+	<section>
+		<h2>before after 선택자 테스트</h2>
+		<ol class="mylist">
+			<li>아이템1</li>
+			<li>아이템2</li>
+			<li class="item01">아이템3</li>
+			<li>아이템4</li>
+		</ol>
+	</section>
+</body>
+
+</html>
