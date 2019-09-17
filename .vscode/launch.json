@@ -42,6 +42,99 @@
       "port": 9231,
       "webRoot": "${workspaceFolder}",
       "url": "http://127.0.0.1:51728/p/html5_test/WebContent/css3/li01.html?_cmAuth\u003drtmugqhknh"
+    },
+    {
+      "name": "Launch li01.html",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9249,
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch rgba.html",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9235,
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Chrome localhost",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9288,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/html5_test/css3/rgba.html"
+    },
+    {
+      "name": "Launch gradient01.html",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9255,
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Chrome localhost (1)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9262,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/html5_test/css3/gradient01.html"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (4)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9204,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:51728/p/html5_test/WebContent/css3/gradient01.html?_cmAuth\u003drtmugqhknh"
+    },
+    {
+      "name": "Launch Chrome localhost (2)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9295,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/html5_test/css3/table01.html"
+    },
+    {
+      "name": "Launch Chrome localhost (3)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9256,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/html5_test/css3/radius01.html"
+    },
+    {
+      "name": "Launch Chrome localhost (4)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9261,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/html5_test/css3/li01.html"
+    },
+    {
+      "name": "Launch Chrome localhost (5)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9263,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/html5_test/css3/box_shadow01.html"
+    },
+    {
+      "name": "Launch Chrome localhost (6)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9230,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/html5_test/css3/box_shadow02.html"
+    },
+    {
+      "name": "Launch Chrome localhost (7)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9247,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/html5_test/css3/float_clear01.html"
     }
   ]
 }

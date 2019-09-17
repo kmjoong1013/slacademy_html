@@ -4,10 +4,58 @@
 <meta charset="utf-8">
 <title>list</title>
 <style>
-	#menu ul {list-style: none;}
-	ul.navi > li {list-style-image: url(../img/li_Icon.GIF)}
-	ul.navi ul {display: none;}
-	ul.navi li:hover > ul {display: block;}
+a:link{text-decoration: none; color:blue;}
+a:visited{color:skyblue;}
+/* 메뉴 전체 스타일 */
+#menu {
+  width: 960px;
+  height: 40px;
+  clear: both;
+}
+/* 메인 메뉴 스타일 */
+ul.navi {
+  float: left;
+  width: 960px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background:  gray; /* 배경색 */
+}
+
+ /* 메인 메뉴 항목 스타일 */
+ul.navi li {
+  display: inline; 
+}
+
+/* 메인 메뉴 링크 스타일 */
+ul.navi li a {
+  float: left;
+  font: bold 14px 명조;
+  line-height: 40px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #880000;
+  margin: 0;
+  padding: 0 30px;
+  background: gray;
+}
+
+/* 서브 메뉴 스타일 */
+ul.navi  ul {
+  display: none;
+}
+
+
+ /* 메인 메뉴 위에 마우스 오버한 후 나타나는 서브 메뉴 스타일 */
+ul.navi li:hover > ul {
+  display: block;
+  width: 920px;
+  height: 45px;
+  margin: 40px 0 0 0;
+  position: absolute;
+  background: black;
+
+}
+
 </style>
 </head>
 

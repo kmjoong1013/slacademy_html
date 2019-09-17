@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body{ font : 14px "맑은 고딕"}
+	.container {
+		width: 80%;
+		margin : 0 auto;
+		background-color:#fff;
+		border:1px solid #E7E7E7
+	}
+	header {
+	height: 70px;
+	margin-top: 0;
+	background-image: url('./img/bg.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #777;
+	color:white;
+	/*background-size:cover;*/
+	}
+	
+	header h1 {padding-left:20px;	}
+	
+	aside{
+		float: right;
+		width: 30%;
+		height:auto;
+		/*background-color:#DFD;*/	
+	}
+	
+	aside img{
+		display:block;
+		margin-bottom:5px;
+		margin-left:5px;
+	}
+	
+	footer {
+		clear: both;
+		padding: 10px 0;
+		background-color:gray;
+		color:white;
+		text-align:center;
+	}
+	
+	.content { float:left; width: 60%;}
+
+	
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+	<h1>사이트 제목</h1>
+  </header>
+  <section class="content">
+    <h2>JAVA 관련 수업에 대하여</h2>
+	<article>
+	 <h3>JAVA JSP SPRING</h3>
+	 <p>JAVA는 프로그래밍 문법과 객체지향의 개념등을 배울수 있다.<br>
+	 JSP는 웹 환경에서 JAVA를 접목해서 Server에 프로그램을 작성할 수 있다.<br>
+	 SPRING은 Enterprise solution을 제공하는 java framework중 제일 유명한 framework이다. </p>
+ 	</article>
+ </section>
+ <aside>
+	<img src="../img/ugc.jpg" alt="" height="200">
+	<img src="../img/ugc.jpg" alt="" height="200">
+ </aside>
+	<footer>
+		<p>서울 디지털 거리 </p>
+		<p> Copyright ⓒ. All rights reserved.</p>
+	</footer>
+</div>
+</body>
+</html>
