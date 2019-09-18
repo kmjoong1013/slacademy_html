@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="favicon" href="../img/favicon.ico">
+    <meta charset="utf-8">
+    <title>product</title>
+    <style>
+	header {width: 900px; height: 100px;}
+	.logo {position: relative; left: 0px; top: 0px;}
+	h1 {margin-top: 100px;}
+    header div img {width: 100px; height: 100px;}
+	a:link{text-decoration: none; color:blue;}
+	a:visited{color:skyblue;}
+/* 메뉴 전체 스타일 */
+#menu {width: 960px; height: 40px; clear: both;}
+/* 메인 메뉴 스타일 */
+ul.navi {float: left; width: 1895px; margin: 0; padding: 0;
+		list-style: none; background:  gray;}
+/* 메인 메뉴 항목 스타일 */
+ul.navi li {display: inline; }
+/* 메인 메뉴 링크 스타일 */
+ul.navi li a { float: left; font: bold 14px 명조; line-height: 40px;
+  color: #fff; margin: 0;
+  padding: 0 30px; background: gray;}
+/* 서브 메뉴 스타일 */
+ul.navi  ul {display: none;}
+
+section {margin: auto; width: 550px; margin-top: 100px; border:1px solid black;
+		padding: 50px 50px 50px 50px;}
+
+</style>
+  </head>
+
+  <body>
+   <header>
+
+		<div class="logo">
+		<a href="main.html"><img src="../img/apple_logo_PNG19670.png" alt="logo"></a>
+		</div>
+		<div id="menu">
+	<ul class="navi">
+		<li><a href="main.html"> Home </a></li>
+		<li><a href="join.html"> 회원가입</a></li>
+		<li><a href="product.html"> 상품등록 </a></li>
+	</ul>
+</div>
+  </header>
+  <section>
+    <form name="form" method="post" >
+<div class="inputArea">
+ <label for="gdsName">상&nbsp;품&nbsp;명&nbsp;</label>
+ <input type="text" id="gdsName" name="gdsName" />
+</div>
+
+<div class="inputArea">
+ <label for="gdsPrice">상품가격</label>
+ <input type="text" id="gdsPrice" name="gdsPrice" />
+</div>
+
+<div class="inputArea">
+ <label for="gdsStock">상품수량</label>
+ <input type="text" id="gdsStock" name="gdsStock" />
+</div>
+
+<div class="inputArea">
+ <label for="gdsDes">상품소개</label>
+ <textarea rows="5" cols="50" id="gdsDes" name="gdsDes"></textarea>
+</div>
+<div class="fieldlabel">
+  <label for="profile">상품사진</label></div>
+<div class="formfield">
+  <input type="file" id="profile" name="profile" required>
+</div>
+<br></br>
+<div class="inputArea">
+ <button type="submit" id="register_Btn" class="btn btn-primary">등록</button>
+</div>
+
+</form>
+  </section>
+  </body>
+</html>
